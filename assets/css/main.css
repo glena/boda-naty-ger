@@ -154,6 +154,7 @@ img.next {
 }
 
 .info .row.text .pics {
+    display:-webkit-flex;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
