@@ -157,13 +157,12 @@ img.next {
     display:-webkit-flex;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .info .row.text .pics .img_wrapper {
     width: 100px;  
     height: 100px; 
-    margin: auto;  
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -267,6 +266,16 @@ h2 {
 
 
 
+@media (max-width: 1000px) {
+    .info .row {
+        padding: 5vh 10vw;
+    }
+}
+@media (max-width: 800px) {
+    .info .row {
+        padding: 5vh 1vw;
+    }
+}
 @media (max-width: 600px) {
     h1 {
         font-size: 35px;
@@ -309,5 +318,17 @@ h2 {
 
     .info .row {
         padding: 5vh 2vw;
+    }
+
+
+    .info .row.text .left {
+        margin: 0;
+    }
+    .info .row.text .right {
+        float: none;
+        width: 100%;
+    }
+    .info .row.text .pics {
+        gap: 10px;
     }
 } 
