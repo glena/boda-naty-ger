@@ -19,7 +19,6 @@ Te esperamos! (mas info en =la version HTML que es mas linda...)
 <html lang="en">
 
 <head>
-    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-YTMWXS8Y7Q"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
@@ -146,7 +145,7 @@ Te esperamos! (mas info en =la version HTML que es mas linda...)
                         used.push(index);
                         let uri = `/assets/images/photos/photo-${index}.png`;
                         document.write(`<div onclick="gtag('event', 'photo-${index}');window.open('${uri}');
-" class="img_wrapper" style="background-image:url(.${uri})"></div>`)
+" class="img_wrapper" style="background-image:url(.${uri})"></div>`);
                     }
                 </script>
             </div>

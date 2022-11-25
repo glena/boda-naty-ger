@@ -128,11 +128,29 @@ h1 {
 }
 
 .footer {
-    margin-top: 5vh;
+    margin: 5vh auto 0;
+    position: relative;
+    width: 40px;;
 }
 .footer a {
     color: #555050;
     font-size: 2vh;
+}
+
+.footer img {
+    animation: MoveUpDown 1s linear infinite;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+  
+@keyframes MoveUpDown {
+    0%, 100% {
+        bottom: 0;
+    }
+    50% {
+        bottom: 10px;
+    }
 }
 
 img.next {
