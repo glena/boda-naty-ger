@@ -193,7 +193,7 @@ h2 {
 }
 
 .timeline{
-    width:350px;
+    width:310px;
     height:450px;
     position: relative;
     margin:auto;
@@ -201,7 +201,7 @@ h2 {
 .timeline::after, .timeline::before {
     content: " ";
     position: absolute;
-    left: 171px;
+    left: 151px;
     border-radius: 10px;
     width: 10px;
     height: 10px;
@@ -246,7 +246,7 @@ h2 {
 .timeline .item .title{
     height: 25px;
     border-bottom: 2px dotted  #555050;
-    width: 105px;
+    width: 85px;
     padding: 10px 10px 0 10px;
     font-weight: 400;
 }
