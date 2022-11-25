@@ -158,6 +158,15 @@ img.next {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    margin-bottom: 5vh;
+}
+
+b {
+    font-weight: 400;
+}
+
+ul {
+    padding-left: 20px;
 }
 
 .info .row.text .pics .img_wrapper {
@@ -184,7 +193,7 @@ h2 {
 
 .timeline{
     width:350px;
-    height:625px;
+    height:450px;
     position: relative;
     margin:auto;
 }
