@@ -1,7 +1,6 @@
 @font-face {
     font-family: handwritten;
-    /* src: url(../font/Thesignature.ttf); */
-    src: url("../font/FallDay.otf") format("opentype");
+    src: url("./assets/font/fall_day.otf") format("opentype");
 }
 
 * {
@@ -35,7 +34,7 @@ body {
 .card:after,
 .card:before {
     content: " ";
-    background-image: url(../images/bgf1.png);
+    background-image: url("./assets/images/bgf1.png");
     width: 55vw;
     height: 60vw;
     display: block;
