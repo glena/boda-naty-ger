@@ -119,7 +119,9 @@
                             index = ('0000' + Math.ceil(Math.random() * COUNT_PHOTOS)).slice(-5);
                         } while(used.includes(index));
                         used.push(index);
-                        document.write(`<div class="img_wrapper" style="background-image:url(./assets/images/photos/photo-${index}.png)"></div>`)
+                        let uri = `/assets/images/photos/photo-${index}.png`
+                        document.write(`<div onclick="window.open('${uri}');
+" class="img_wrapper" style="background-image:url(.${uri})"></div>`)
                     }
                 </script>
             </div>
